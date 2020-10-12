@@ -4,7 +4,7 @@
 	"description": "Simple snowfall animation",
 	"main": "index.js",
 	"scripts": {
-		"build": "parcel build -- src/snofall.js",
+		"build": "parcel build --public-url './' -- src/index.html",
 		"start": "parcel serve -- src/index.html"
 	},
 	"keywords": [],
