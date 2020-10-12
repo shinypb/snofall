@@ -1,7 +1,7 @@
 {
-	"name": "snowy",
+	"name": "@shinypb/snowy",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Simple snowfall animation",
 	"main": "index.js",
 	"scripts": {
 		"build": "parcel build -- src/snofall.js",
@@ -12,5 +12,14 @@
 	"license": "CC-BY-SA-4.0",
 	"dependencies": {
 		"parcel": "^1.12.4"
-	}
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shinypb/snofall.git"
+	},
+	"bugs": {
+		"url": "https://github.com/shinypb/snofall/issues"
+	},
+	"homepage": "https://github.com/shinypb/snofall#readme"
 }
