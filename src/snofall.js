@@ -7,12 +7,6 @@ export function isSnowing() {
 	return layers.length > 0;
 }
 
-function makeLayer() {
-	const el = document.createElement("div");
-	el.className = "snofall-snow";
-	return el;
-}
-
 function random(min, max) {
 	return min + Math.random() * (max - min);
 }
@@ -31,9 +25,8 @@ export function start(
 		throw new Error("Invalid number of layers; must be a positive number");
 
 	for (let i = 0; i < layerCount; i++) {
-		const layer = makeLayer();
+		const layer = document.createElement("div");
 		layer.style.animationDuration = `${Math.floor(random(minSpeed, maxSpeed) * 1000)}ms`;
-
 		if (i % 2 === 0) {
 			layer.className = "snofall-snow snofall-snow-1";
 		} else {
