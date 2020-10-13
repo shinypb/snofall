@@ -1,5 +1,5 @@
 {
-	"name": "@shinypb/snowy",
+	"name": "@shinypb/snofall",
 	"version": "1.0.0",
 	"description": "Simple snowfall animation",
 	"main": "src/snofall.js",
