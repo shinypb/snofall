@@ -2,7 +2,7 @@
 	"name": "@shinypb/snowy",
 	"version": "1.0.0",
 	"description": "Simple snowfall animation",
-	"main": "index.js",
+	"main": "src/snofall.js",
 	"scripts": {
 		"build": "parcel build --public-url './' -- src/index.html",
 		"start": "parcel serve -- src/index.html"
