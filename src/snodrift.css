@@ -4,7 +4,7 @@
 	left: 0;
 	top: 0;
 	position: fixed;
-	animation: snodrift-snow-snowing-left 1s infinite linear;
+	animation: snodrift-snow-snowing 1s infinite linear;
 }
 
 .snodrift-snow-1 {
@@ -16,16 +16,7 @@
 	opacity: 0.9;
 }
 
-@keyframes snodrift-snow-snowing-right {
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 640px 480px;
-	}
-}
-
-@keyframes snodrift-snow-snowing-left {
+@keyframes snodrift-snow-snowing {
 	from {
 		background-position: 0 0;
 	}

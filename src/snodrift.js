@@ -13,11 +13,16 @@ function makeLayer() {
 	return el;
 }
 
+function random(min, max) {
+	return min + Math.random() * (max - min);
+}
+
 export function start(
-	{ layerCount, minSpeed, maxSpeed } = {
+	{ container, layerCount, maxSpeed, minSpeed } = {
+		container: document.body,
 		layerCount: 2,
-		minSpeed: 1,
-		maxSpeed: 3,
+		maxSpeed: 30,
+		minSpeed: 10,
 	}
 ) {
 	if (isSnowing()) return;
@@ -27,9 +32,7 @@ export function start(
 
 	for (let i = 0; i < layerCount; i++) {
 		const layer = makeLayer();
-		layer.style.animationDuration = `${
-			10 * Math.floor((minSpeed + Math.random() * (maxSpeed - minSpeed)) * 1000)
-		}ms`;
+		layer.style.animationDuration = `${Math.floor(random(minSpeed, maxSpeed) * 1000)}ms`;
 
 		if (i % 2 === 0) {
 			layer.className = "snodrift-snow snodrift-snow-1";
@@ -39,7 +42,7 @@ export function start(
 		layer.style.opacity = 0.8 + 0.2 * Math.random();
 
 		layers.push(layer);
-		document.body.appendChild(layer);
+		container.appendChild(layer);
 	}
 }
 
