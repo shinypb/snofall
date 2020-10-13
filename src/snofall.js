@@ -1,5 +1,5 @@
 "use strict";
-import "./snodrift.css";
+import "./snofall.css";
 
 const layers = [];
 
@@ -9,7 +9,7 @@ export function isSnowing() {
 
 function makeLayer() {
 	const el = document.createElement("div");
-	el.className = "snodrift-snow";
+	el.className = "snofall-snow";
 	return el;
 }
 
@@ -35,9 +35,9 @@ export function start(
 		layer.style.animationDuration = `${Math.floor(random(minSpeed, maxSpeed) * 1000)}ms`;
 
 		if (i % 2 === 0) {
-			layer.className = "snodrift-snow snodrift-snow-1";
+			layer.className = "snofall-snow snofall-snow-1";
 		} else {
-			layer.className = "snodrift-snow snodrift-snow-2";
+			layer.className = "snofall-snow snofall-snow-2";
 		}
 		layer.style.opacity = 0.8 + 0.2 * Math.random();
 

@@ -1,5 +1,5 @@
 // "use strict";
 
-import * as Snodrift from "./snodrift";
+import * as Snofall from "./snofall";
 
-window.addEventListener("DOMContentLoaded", () => Snodrift.start());
+window.addEventListener("DOMContentLoaded", () => Snofall.start());

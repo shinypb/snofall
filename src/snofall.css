@@ -1,22 +1,22 @@
-.snodrift-snow {
+.snofall-snow {
 	height: 100%;
 	width: 100%;
 	left: 0;
 	top: 0;
 	position: fixed;
-	animation: snodrift-snow-snowing 1s infinite linear;
+	animation: snofall-snow-snowing 1s infinite linear;
 }
 
-.snodrift-snow-1 {
+.snofall-snow-1 {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgAQMAAAAPH06nAAAAAXNSR0IArs4c6QAAAAZQTFRFR3BM////n5SiQwAAAAJ0Uk5TAJ34LSLBAAACPUlEQVR42u3dMW6DMBTGcadUpANKOzJEPQNjhg49Ckdg7NijcRQfoUfoQAYUJLDxh/ug/98cPSVg+71njOIcAFjXqgN6cbxTv/iRKi7g9+JHruqLclMHbHKMjVId8KIOKL9RNRdqywsFwLZKHZBsuqPU3KjveqfKGfW0wNQMhFGB2Zkvr0GxBRyVfKjLiwVyBADAxnrvxV1+wJb7ctE7/pUBW+7LidunXqZG8CvnrPqVdDMy8l2czsJEndU7ADArKiuGpIYiJmBI939W54SonE73D2sKdcCzOuDlYcFI/sbVw4Ih+8adui5vAzo4SBphG/0Sj7uBLZXqdvq+2Ou2mK5RtW9AzV1H5c2omvtPCoJypoxp1d/amx0n1YqmizRLmgUAAOp2wKnLvK3K8oKb7p7VAeVP5N/VAT/M19Jvex9VnPMAQ4mhRA1DDQNn5EWP2V3JNcf/Zle+1kIlxa6kpYvHEdOUyZH1Stg4Lw4AOGy/LNjrqretIb/UAX/Ml0GfzCPkUKTO9kcrjlrd1Mtft74Lz9QtABQt64sWgcQdQXk7vc9DrwDkenE8nqPhMEi9wD/Fmz1IXRdbdd/qxcNrUq49Jfato5TZqDPUsD3/qgs4bM/rjh2fvHqiD7fnhfkHAPlqF46wAQAi+jobuUG3Dd9M+jryKsCqtmzYX9E9Urjvr+h2gIphqgt3gIZlUv7iOS+KAgjCkytkSCH8Ax3zkHkIAIdxqAdpvfBTznG8GcDG1GvMzhctTuEDwOZ+AazqTDnu0vC3AAAAAElFTkSuQmCC);
 }
 
-.snodrift-snow-2 {
+.snofall-snow-2 {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgAQMAAAAPH06nAAAAAXNSR0IArs4c6QAAAAZQTFRFR3BM////n5SiQwAAAAJ0Uk5TAJ34LSLBAAAB3klEQVR42u3dPXKCUBQGUBhnTONYU7gISpfDElhClsZSWEqaNBIzqHzoE88pU9zB93vvezCpqv+1VVifDjimAw4VALyaDRjgHk064Pkpy3D9/XjA7tofd9/hx/5Kt8N+C8OtTjfzav3WpPvtnN60fydGHQvYrdSkO8ssKHYUOzxNerzU6YC5fXYI77PLf+oQ/qnTJ9qV0/iSHOBTxc8ljumAp3TK3GRS5i6dMo/hFCie8sSPf1hZPK2Jn4vGl4uDXjdKjVJe4E2v45JZ0ERb/A8Y0wEH8+ATxVf0U/GLSbt6geBev1w6m08kpQHnBaWfF6QnbcE36GuNCxRVLy+qrNCzK/QDbXZMp2QHKRlsWVd6oebGHwBFn6IPnmSYG83NfVP8IpXtZyfh/BS/OG0cZ4v++Sm+my3HO1McuF1JV1vXn+WYfpYF6Z7XcgEAgG0bwvG82Aer2qcDLD75mAZYfEc2DbD4W9jmrTqoSndQle6gl7YvRerSAcfScxNvtFn6LH1l8AUx76xNB+xL3459dlKKeF6UDugQCAAcFTgqQLYsW76FL8Cwn9pPAdje3rQ8QZ3sTcvv6pqVN1Nfl4Gyfatl+xVdOuBY+pDwghmb0KYD9qWvBd5uAd6Af4Hw1w+e1kTUcub4zQAAAABJRU5ErkJggg==);
 	opacity: 0.9;
 }
 
-@keyframes snodrift-snow-snowing {
+@keyframes snofall-snow-snowing {
 	from {
 		background-position: 0 0;
 	}
