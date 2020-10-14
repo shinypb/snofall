@@ -5,6 +5,7 @@
 	top: 0;
 	position: fixed;
 	animation: snofall-snow-snowing 1s infinite linear;
+	pointer-events: none;
 }
 
 .snofall-snow-1 {
